@@ -1,0 +1,63 @@
+body {
+    background-color: #A53860;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1em solid #670D2F;
+}
+h1, h2 {
+    color: #670D2F;
+    text-align: center;
+}
+p, th{
+    font-size: 1.5em;
+    justify-content: center;
+    color: #EF88AD;
+    text-align: center;
+    border: 2px dashed white;
+}
+ul {
+    display: flex;
+    gap: 2em;
+    font-size: 1.5em;
+    color: white;
+}
+th, td {
+    border: 1px solid white;
+}
+tr {
+    text-align: center;
+}
+table {
+    background-color: #3A0519;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+img {
+    width: 100%;
+    border-radius: 1em;
+    border: 2px solid white;
+    border-style: inset;
+}
+.Foto_Hobbie {
+    width: 60%;
+    margin-left: 20%;
+    border-style: inset;
+}
+a { 
+    text-decoration: none;
+    color: white;
+    border: 3px solid wheat;
+    border-radius: 2em;
+}
+button:hover,a:hover {
+    color: red;
+    cursor: pointer;
+}
+button {
+    color: white;
+    background-color: #3A0519;
+    width: 40%;
+    height: 3em;
+    margin-left: 30%;
+}
+
